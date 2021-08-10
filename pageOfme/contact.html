@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="./asset/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel ="stylesheet" href ="asset/css/styles.css">
+</head>
+<body>
+    <div class="cover-page__navbar">
+        <div class="navbar-list">
+            <a href="index.html"><img class = "navbar-list__img" src="./asset/img/bk1.jpg" alt=""></a>
+            <a href="index.html" class="navbar-list__link">
+                <i class="navbar-list__icon far fa-user"></i>
+                <span class = "navbar-list__text">HOME</span>    
+            </a>
+            <a href="aboutme.html"  class="navbar-list__link">
+                <i class="navbar-list__icon fas fa-user-graduate"></i>
+                <span class = "navbar-list__text">ABOUT ME</span> 
+            </a>
+            <a href="hobbies.html" class="navbar-list__link"></i>
+                <i class="navbar-list__icon far fa-star"></i>
+                <span class = "navbar-list__text">HOBBIES</span>
+            </a>
+            <a href="contact.html" class="navbar-list__link navbar-list__link--active">
+                <i class="navbar-list__icon fas fa-phone-square"></i>
+                <span class = "navbar-list__text">CONTACT</span>
+            </a>
+        </div>
+    </div>
+    <div class="contact">
+        <h2 class="contact__head">
+            Contact Me
+        </h2>
+        <hr>
+        <div class="contact-address">
+            <p class = "contact-address__wrap-icon">
+                <i class="fas fa-map-marker-alt"></i>
+                20 Ho Tung Mau, Ha Noi
+            </p>
+            <p class = "contact-address__wrap-icon">
+                <i class="fas fa-phone-alt"></i>
+                Phone: 034 659 6092
+            </p>
+            <p class = "contact-address__wrap-icon">
+                <i class="fas fa-envelope"></i>
+                Email: luonghsbg@gmail.com
+            </p>
+        </div>
+        <br>
+        <p class = "contact__title">Send me a message:</p>
+        <form action="">
+            <p>
+                <input class = "contact-form" type="text" placeholder="Name" required name="Name">
+            </p>
+            <p>
+                <input class = "contact-form" type="email" placeholder="Email" required name="Email">
+            </p>
+            <p>
+                <input class = "contact-form" type="text" placeholder="Subject" required name="Subject">
+            </p>
+            <p>
+                <input class = "contact-form" type="text" placeholder="Message" required name="Message">
+            </p>
+            <p>
+                <button class = "contact-button">
+                    <i class="fas fa-paper-plane"></i>
+                    SEND MESSAGE
+                </button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
