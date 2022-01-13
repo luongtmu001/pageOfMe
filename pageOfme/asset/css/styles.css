@@ -309,7 +309,8 @@ html{
         font-size: 1.4rem;
         margin: 10px 70px;
         line-height: 1.6rem;
-        border-bottom: 1px solid #000;
+        text-align: center;
+        /* border-bottom: 1px solid #000; */
 }
 .detail-skill,
 .detail-address {
@@ -364,10 +365,19 @@ html{
 .task-word-black {
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
-        width: 60%;
+        width: 90%;
         height: 30px;
         background-color: #000000;
 }
+.task-word-black.Excel {
+        width: 70%;
+} 
+.task-word-black.SQL {
+        width: 75%;
+} 
+.task-word-black.HTML {
+        width: 80%;
+} 
 .column-vertical {
         position: relative;
     background-color: #000;
